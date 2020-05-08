@@ -1,0 +1,5 @@
+service overlay-data-mount /system/bin/mount --rbind /data/overlay-data /data
+    user root
+    group root
+    oneshot
+    disabled
